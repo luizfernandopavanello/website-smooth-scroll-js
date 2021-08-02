@@ -593,7 +593,7 @@
 
 /* Footer CSS */
 .footer__container {
-  background-color: #131313;
+  background-color: #181313;
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
@@ -608,6 +608,13 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
+  background: #5f2c82;
+  background-image: linear-gradient(to top, #5f2c82 0%, #009fff 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .footer__links {
